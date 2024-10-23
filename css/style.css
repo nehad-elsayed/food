@@ -11,7 +11,7 @@ body {
     font-family: "Source Sans 3", sans-serif;
 }
 
-body::selection {
+::selection {
 
     color: black;
     background-color: orange;
@@ -168,6 +168,9 @@ a {
 #about .container .frist-side {
     max-width: 30%;
     float: left;
+    box-shadow: 3px 3px 3px 3px #ddd;
+    border-radius: 10px;
+
 }
 
 #about .container .frist-side img {
@@ -219,6 +222,7 @@ a {
 #about .container .frist-side .pic {
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 #about .container .frist-side .layer {
@@ -281,8 +285,9 @@ a {
 /**========= start popular section**********/
 
 #popular {
-    background-color: #dddddd79;
+    background-color: #dddddd4d;
     margin-block: 50px;
+    padding-block: 1.875rem;
 }
 
 #popular .menu {
@@ -357,3 +362,46 @@ a {
 
 
 /**========= end popular section**********/
+/**========= start order section**********/
+
+#order {
+
+
+    margin-block: 3.125rem;
+}
+
+#order .items {
+    float: left;
+    width: 25%;
+    padding: 15px;
+
+
+}
+
+#order .items .inner {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.123);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#order .items .inner i {
+    padding: 5px;
+    color: orange;
+    font-size: 2.1875rem;
+}
+
+#order .items .inner h4 {
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 1.5625rem;
+    color: rgba(0, 0, 0, 0.516);
+    margin-block: .3125rem;
+}
+
+#order .items .inner p {
+
+    color: rgba(0, 0, 0, .5);
+}
+
+/**========= end order section**********/
